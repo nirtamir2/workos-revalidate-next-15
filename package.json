@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.11.0",
     "@workos-inc/authkit-nextjs": "^0.8.2",
     "@workos-inc/node": "^7.20.0",
     "iron-session": "^8.0.3",
