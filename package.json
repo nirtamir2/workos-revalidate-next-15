@@ -9,18 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "@workos-inc/authkit-nextjs": "^0.8.2",
+    "@workos-inc/node": "^7.20.0",
+    "iron-session": "^8.0.3",
+    "next": "15.0.0-rc.0",
+    "react": "19.0.0-rc-3563387fe3-20240621",
+    "react-dom": "19.0.0-rc-3563387fe3-20240621",
+    "server-only": "^0.0.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "typescript": "^5"
   }
 }
