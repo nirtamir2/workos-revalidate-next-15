@@ -17,12 +17,14 @@ export default function Home() {
       </li>
       <li>
         <Link href="/server-actions-with-initial-server-state">
-          {" "}
           server-actions-with-initial-server-state
         </Link>
       </li>
       <li>
         <Link href="/use">use</Link>
+      </li>
+      <li>
+        <Link href="/use-client-only">use client only</Link>
       </li>
     </ul>
   );
