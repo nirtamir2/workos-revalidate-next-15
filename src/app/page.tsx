@@ -1,17 +1,16 @@
-import { getUser } from "@workos-inc/authkit-nextjs";
-import { LoginForm } from "./LoginForm";
-import { LogoutForm } from "./LogoutForm";
+import Link from "next/link";
 
-export default async function Home() {
-  const user = await getUser();
-  const isLoggedIn = user.user != null;
-
-  if (isLoggedIn) {
-    return <div>
-    <div>Logged in as {user.user.email}</div>
-    <LogoutForm/>
-    </div>
-  }
-
-  return <LoginForm />;
+export default function Home() {
+  return (
+    <ul>
+      <Link href="/server-component/query">Server component query</Link>
+      <Link href="/server-component/mutation">Server component mutation</Link>
+      <Link href="/context">context</Link>
+      <Link href="/server-actions">server-actions</Link>
+      <Link href="/server-actions-with-initial-server-state">
+        server-actions-with-initial-server-state
+      </Link>
+      <Link href="/use">use</Link>
+    </ul>
+  );
 }
